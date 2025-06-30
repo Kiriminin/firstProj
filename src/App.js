@@ -2,11 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 
 export function MyBook() {
+
   return (
     <div className="CardComponent">
       <h1>My Book</h1>
       <img src={logo} className="App-logo" alt="logo" />
-      <p>I like this book!!! React!!! Yeaaaa.</p>
+      <p>I like this book, Night Patrol! Yeap.</p>
       <p>Something about...</p>
       <br></br>
       <h5>2025-2025...</h5>
@@ -19,7 +20,7 @@ export function MyMusicGroup() {
     <div className="CardComponent">
       <h1>AMERICAN RAP</h1>
       <img src={logo} className="App-logo" alt="logo" />
-      <p>Cool Music Kanye West  fortnite</p>
+      <p>Cool Music Viktor Coi "Star bu name Sun"</p>
       <p>I like this song so much.</p>
        <br></br>
        <p>#Music #vibe #iwannasleep</p>
@@ -40,6 +41,18 @@ export function MyCooking() {
   );
 }
 
+function App() {
+  return (
+    <div>
+      <div className='Cards'>
+        <MyBook />
+        <MyMusicGroup />
+        <MyCooking />
+      </div>
+      
+    </div>
+  );
+}
 function App() {
   return (
     <div>
